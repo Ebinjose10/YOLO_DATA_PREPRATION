@@ -1,9 +1,9 @@
 import os
 import shutil 
 
-directories=("/home/priyanshu-vaaan/Downloads/VIDS Data annotation","/home/priyanshu-vaaan/Downloads/VIDS Data annotation/VIDS/DATAZIP/DATA5","/home/priyanshu-vaaan/Downloads/VIDS Data annotation/VIDS/DATAZIP/DATA6","/home/priyanshu-vaaan/Downloads/VIDS Data annotation/VIDS/DATAZIP/DATA7","/home/priyanshu-vaaan/Downloads/VIDS Data annotation/VIDS/DATAZIP/DATA8")
-save_data=("/home/priyanshu-vaaan/EBIN_TRAINING/VIDS_DATA_NEW/")
-count=12136
+directories=(" "," "," ")   #List your directories
+save_data=("")              #Location where you want to save your data
+count=0                #use a non pre-existing max count 
 
 for directory in directories:
     for filename in os.listdir(directory):
